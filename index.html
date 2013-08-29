@@ -3,6 +3,7 @@
 	<head>
 		<title>Warby Parker Homework</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	</head>
 <body>
 	<div onclick="hideLightbox()" id="lightboxBG"></div>
@@ -10,15 +11,16 @@
 		<div id="lightbox">
 			<div id="images">
 				<ul>
-					<li><img src='images/example_photo.jpg'/></li>
-					<li><img src='images/example_photo.jpg'/></li>
-					<li><img src='images/example_photo.jpg'/></li>
-					<li><img src='images/example_photo.jpg'/></li>
-					<li><img src='images/example_photo.jpg'/></li>
+					<li><img class="image_size" src='images/example_photo.jpg'/></li>
+					<li><img class="image_size" src='images/example_photo.jpg'/></li>
+					<li><img class="image_size" src='images/example_photo.jpg'/></li>
+					<li><img class="image_size" src='images/example_photo.jpg'/></li>
+					<li><img class="image_size" src='images/example_photo.jpg'/></li>
+					<li><img class="image_size" src='images/example_photo.jpg'/></li>
 				</ul>
 			</div>
 			<div id="text">
-				<p>&#8221;The greatest ride in my life was about to come up, a truck, with a flatboard at the back, with about six or seven boys sprawled out on it, and the drivers, two young blond farmers from Minnesota, were picking up every single soul they found on that road &#8212; the most smiling, cheerful couple of handsome bumpkins you could ever wish to see, both wearing cotton shirts and overalls, nothing else; both thick-wristed and earnest, with broad howareyou smiles for anybody and anything that came across their path. I ran up, said &#8216;Is there room?&#8216; They said, &#8216;Sure, hop on, &#8216;sroom for everybody.&#8216;&#8220;</p>
+				<p id="text_width">&#8221;The greatest ride in my life was about to come up, a truck, with a flatboard at the back, with about six or seven boys sprawled out on it, and the drivers, two young blond farmers from Minnesota, were picking up every single soul they found on that road &#8212; the most smiling, cheerful couple of handsome bumpkins you could ever wish to see, both wearing cotton shirts and overalls, nothing else; both thick-wristed and earnest, with broad howareyou smiles for anybody and anything that came across their path. I ran up, said &#8216;Is there room?&#8216; They said, &#8216;Sure, hop on, &#8216;sroom for everybody.&#8216;&#8220;</p>
 				<p>Jack Karouac</p>
 				<p>On The Road</p>
 			</div>

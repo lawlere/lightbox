@@ -16,10 +16,10 @@ body {
 	border:1px solid #ccc;
 	width:800px;
 	background-color:#fcfcfc;
-	position:fixed;
 	height:2000px;
 	left:50%;
 	margin-left:-400px;
+	position:absolute;
 	display:none;
 }
 
@@ -31,14 +31,13 @@ body {
 
 #images ul li {
 	list-style-type:none;
-	width:130px; 
+	width:115px; 
   	height:150px; 
   	float:left;
-  	vertical-align:top; 
 }
 
 #images ul li img {
-	width:125px;
+	width:110px;
 }
 
 #text {
