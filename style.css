@@ -26,14 +26,14 @@ body {
 #images {
 	position:fixed;
 	top:25%;
-	margin-left:2%;
+	margin-left:10px;
 }
 
 #images ul li {
 	list-style-type:none;
-	width: 130px; 
+	width:130px; 
   	height:150px; 
-  	float :left;
+  	float:left;
   	vertical-align:top; 
 }
 
@@ -43,10 +43,11 @@ body {
 
 #text {
 	position:fixed;
-	margin-right:35%;
-	margin-left:5%;
+	margin-right:20%;
+	margin-left:30px;
 	padding-top:100px;
 	top:30%;
+	max-width:750px;
 }
 
 #wrapper {
